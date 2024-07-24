@@ -18,7 +18,5 @@ def generate_tiny_qr(data, box_size=1, border=0):
     # Save the image
     img.save("qrcode.png")
 
-
-
 # Example usage
-generate_tiny_qr("message to be store ")
+generate_tiny_qr("message to be stored")
